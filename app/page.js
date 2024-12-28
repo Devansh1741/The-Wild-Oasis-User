@@ -1,6 +1,5 @@
 import Image from "next/image";
 import Link from "next/link";
-
 import bg from "@/public/bg.png";
 
 export default function Page() {
@@ -11,7 +10,6 @@ export default function Page() {
         fill
         placeholder="blur"
         quality={80}
-        c
         className="object-cover object-top"
         alt="Mountains and forests with two cabins"
       />
